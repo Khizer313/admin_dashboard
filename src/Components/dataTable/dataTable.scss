@@ -1,0 +1,10 @@
+.dataGrid{
+    background-color: white;padding: 20px;
+}
+// export waly option ko right py and  search waly option ko left py ly aey
+.MuiDataGrid-toolbarContainer{
+    flex-direction: row-reverse;
+}
+h4{
+    width: 32px;height: 32px;border-radius: 50%;
+}

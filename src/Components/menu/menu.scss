@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+.item{
+    display: flex;flex-direction: column;gap: 1px;margin-bottom: 1px;
+}
+.title{
+    font-size: 12px;font-weight: 200;color: $soft-color;margin-bottom: 13px;text-transform: uppercase;
+}
+.listItem{
+    display: grid;align-items: center;border-radius: 5px;grid-template-rows: 1fr;grid-template-columns: 30px 1fr;
+
+}
+
+.listItem:hover{
+background-color: $soft-bg;
+}
